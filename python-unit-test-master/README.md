@@ -27,8 +27,6 @@ Once you have created a project on GitHub, you will need to add a `.travis.yml` 
 
 You also need to set the script that you'd like to run. This way, Travis will run the test files you specify and report any non-zero exit codes. Similar to how we run unit tests locally, you add `python unit_tests.py` to the scripts section of the `.yaml` file.
 
-View Travis: https://travis-ci.org/aaronherman/python-unit-test/builds
-
 ## More information
 [.travis.yml](https://docs.travis-ci.com/user/languages/python/)
 [Overview](https://github.com/softwaresaved/build_and_test_examples/blob/master/travis/HelloWorld.md)
